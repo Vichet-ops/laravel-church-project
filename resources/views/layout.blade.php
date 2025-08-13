@@ -9,11 +9,11 @@
     @vite(['resources/css/app.css', 'resources/js/app.js'])
    
     <title>
-        Church Name
+        Grace Community Church
     </title>
 </head>
 <body class="bg-gray-200">
-
+    <x-nav />
     <main class="container mx-auto p-4 pt-4">
         {{ $slot }}
     </main>
