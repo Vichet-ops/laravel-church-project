@@ -1,38 +1,40 @@
-<nav class="bg-white shadow-lg">
+<nav class="{{ request()->is('/') ? 'bg-transparent absolute top-2 md:top-4 left-0 w-full' : 'bg-white shadow-lg relative w-full' }} z-10 pt-4 pb-4 transition duration-300 ease-in-out">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="flex justify-between h-16">
+        <div class="flex justify-between {{ request()->is('/') ? 'h-24 md:h-28' : 'h-20' }}">
             <!-- Logo/Brand -->
             <div class="flex items-center">
                 <div class="flex-shrink-0">
-                    <h1 class="text-2xl font-bold text-blue-600">Grace Brethren Church</h1>
+                    <a href="{{ route('home') }}" class="hover:opacity-80 transition duration-300">
+                        <img src="{{ asset('images/red-cross-transparent-clean.png') }}" alt="Grace Brethren Church Logo" class="{{ request()->is('/') ? 'h-20 md:h-24 lg:h-28' : 'h-12' }} w-auto">
+                    </a>
                 </div>
-            </div>
+            </div> 
 
-            <!-- Desktop Navigation -->
+            <!-- Desktop Navigation --> 
             <div class="hidden md:flex items-center space-x-8">
-                <a href="/" class="@if(request()->is('/')) text-blue-600 font-bold @else text-gray-700 hover:text-blue-600 @endif px-3 py-2 rounded-md text-sm font-medium transition duration-300">
+                <a href="{{ route('home') }}" class="{{ request()->is('/') ? 'text-white font-bold' : 'text-gray-700 hover:text-blue-600' }} px-4 py-3 rounded-md text-base font-medium transition duration-300">
                     Home
                 </a>
-                <a href="/about" class="@if(request()->is('about')) text-blue-600 font-bold @else text-gray-700 hover:text-blue-600 @endif px-3 py-2 rounded-md text-sm font-medium transition duration-300">
+                <a href="{{ route('about') }}" class="{{ request()->is('/') ? 'text-white hover:text-blue-200' : (request()->routeIs('about') ? 'text-blue-600 font-bold' : 'text-gray-700 hover:text-blue-600') }} px-4 py-3 rounded-md text-base font-medium transition duration-300">
                     About
                 </a>
-                <a href="/services" class="@if(request()->is('services')) text-blue-600 font-bold @else text-gray-700 hover:text-blue-600 @endif px-3 py-2 rounded-md text-sm font-medium transition duration-300">
+                <a href="{{ route('services') }}" class="{{ request()->is('/') ? 'text-white hover:text-blue-200' : (request()->routeIs('services') ? 'text-blue-600 font-bold' : 'text-gray-700 hover:text-blue-600') }} px-4 py-3 rounded-md text-base font-medium transition duration-300">
                     Services
                 </a>
-                <a href="/events" class="@if(request()->is('events')) text-blue-600 font-bold @else text-gray-700 hover:text-blue-600 @endif px-3 py-2 rounded-md text-sm font-medium transition duration-300">
+                <a href="{{ route('events') }}" class="{{ request()->is('/') ? 'text-white hover:text-blue-200' : (request()->routeIs('events') ? 'text-blue-600 font-bold' : 'text-gray-700 hover:text-blue-600') }} px-4 py-3 rounded-md text-base font-medium transition duration-300">
                     Events
                 </a>
-                <a href="/contact" class="@if(request()->is('contact')) text-blue-600 font-bold @else text-gray-700 hover:text-blue-600 @endif px-3 py-2 rounded-md text-sm font-medium transition duration-300">
+                <a href="{{ route('contact') }}" class="{{ request()->is('/') ? 'text-white hover:text-blue-200' : (request()->routeIs('contact') ? 'text-blue-600 font-bold' : 'text-gray-700 hover:text-blue-600') }} px-4 py-3 rounded-md text-base font-medium transition duration-300">
                     Contact
                 </a>
-                <a href="/give" class="bg-blue-600 text-white px-4 py-2 rounded-md text-sm font-medium hover:bg-blue-700 transition duration-300">
+                <a href="{{ route('give') }}" class="bg-blue-600 text-white px-6 py-3 rounded-md text-base font-medium hover:bg-blue-700 transition duration-300">
                     Give
                 </a>
             </div>
 
             <!-- Mobile menu button -->
             <div class="md:hidden flex items-center">
-                <button type="button" class="text-gray-700 hover:text-blue-600 focus:outline-none focus:text-blue-600" id="mobile-menu-button">
+                <button type="button" class="{{ request()->is('/') ? 'text-white hover:text-blue-200' : 'text-gray-700 hover:text-blue-600' }} focus:outline-none" id="mobile-menu-button">
                     <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
                     </svg>
@@ -42,23 +44,23 @@
 
         <!-- Mobile Navigation -->
         <div class="md:hidden hidden" id="mobile-menu">
-            <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-                <a href="/" class="@if(request()->is('/')) text-blue-600 font-bold @else text-gray-700 hover:text-blue-600 @endif block px-3 py-2 rounded-md text-base font-medium transition duration-300">
+            <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3 {{ request()->is('/') ? 'bg-black bg-opacity-75' : 'bg-white' }} rounded-lg">
+                <a href="{{ route('home') }}" class="{{ request()->is('/') ? 'text-white font-bold' : 'text-gray-700 hover:text-blue-600' }} block px-4 py-3 rounded-md text-lg font-medium transition duration-300">
                     Home
                 </a>
-                <a href="/about" class="@if(request()->is('about')) text-blue-600 font-bold @else text-gray-700 hover:text-blue-600 @endif block px-3 py-2 rounded-md text-base font-medium transition duration-300">
+                <a href="{{ route('about') }}" class="{{ request()->is('/') ? 'text-white hover:text-blue-200' : (request()->routeIs('about') ? 'text-blue-600 font-bold' : 'text-gray-700 hover:text-blue-600') }} block px-4 py-3 rounded-md text-lg font-medium transition duration-300">
                     About
                 </a>
-                <a href="/services" class="@if(request()->is('services')) text-blue-600 font-bold @else text-gray-700 hover:text-blue-600 @endif block px-3 py-2 rounded-md text-base font-medium transition duration-300">
+                <a href="{{ route('services') }}" class="{{ request()->is('/') ? 'text-white hover:text-blue-200' : (request()->routeIs('services') ? 'text-blue-600 font-bold' : 'text-gray-700 hover:text-blue-600') }} block px-4 py-3 rounded-md text-lg font-medium transition duration-300">
                     Services
                 </a>
-                <a href="/events" class="@if(request()->is('events')) text-blue-600 font-bold @else text-gray-700 hover:text-blue-600 @endif block px-3 py-2 rounded-md text-base font-medium transition duration-300">
+                <a href="{{ route('events') }}" class="{{ request()->is('/') ? 'text-white hover:text-blue-200' : (request()->routeIs('events') ? 'text-blue-600 font-bold' : 'text-gray-700 hover:text-blue-600') }} block px-4 py-3 rounded-md text-lg font-medium transition duration-300">
                     Events
                 </a>
-                <a href="/contact" class="@if(request()->is('contact')) text-blue-600 font-bold @else text-gray-700 hover:text-blue-600 @endif block px-3 py-2 rounded-md text-base font-medium transition duration-300">
+                <a href="{{ route('contact') }}" class="{{ request()->is('/') ? 'text-white hover:text-blue-200' : (request()->routeIs('contact') ? 'text-blue-600 font-bold' : 'text-gray-700 hover:text-blue-600') }} block px-4 py-3 rounded-md text-lg font-medium transition duration-300">
                     Contact
                 </a>
-                <a href="/give" class="bg-blue-600 text-white block px-3 py-2 rounded-md text-base font-medium hover:bg-blue-700 transition duration-300">
+                <a href="{{ route('give') }}" class="bg-blue-600 text-white block px-4 py-3 rounded-md text-lg font-medium hover:bg-blue-700 transition duration-300">
                     Give
                 </a>
             </div>
