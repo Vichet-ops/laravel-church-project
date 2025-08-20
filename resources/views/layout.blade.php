@@ -4,17 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ asset('favicon-32x32.png') }}">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />   
     <!-- Vite Assets -->
     @vite(['resources/css/app.css', 'resources/js/app.js'])
-   
-    <title>
-        Grace Community Church
-    </title>
+    <title>{{ $title }}</title>
 </head>
-<body class="bg-gray-200">
+
+<body class="{{ request()->is('/') ? 'bg-transparent' : 'bg-gray-200' }}">
     <x-nav />
-    <main class="container mx-auto p-4 pt-4">
+    <main>
         {{ $slot }}
     </main>
 </body>
