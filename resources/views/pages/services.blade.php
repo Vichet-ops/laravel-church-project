@@ -373,7 +373,7 @@
                 <a href="{{ route('about') }}" class="border-2 border-white text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-white hover:text-blue-600 transition duration-300 transform hover:scale-105">
                     Learn More About Us
                 </a>
-            </div>
         </div>
+    </div>
     </section>
 </x-layout>

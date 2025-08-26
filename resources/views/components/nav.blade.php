@@ -54,7 +54,7 @@
                 <a href="{{ url('/') }}" class="{{ request()->is('/') ? 'text-blue-200 bg-blue-800' : 'text-white' }} hover:text-blue-200 block px-3 py-2 text-base font-medium rounded-md transition duration-300 group cursor-pointer">
                     <span class="relative inline-block">
                         Home
-                        <span class="absolute -bottom-0.5 left-1/2 -translate-x-1/2 w-0 h-0.5 bg-white transition-all duration-300 ease-out {{ request()->is('/') ? 'w-10' : '' }} group-hover:w-10"></span>
+                        <span class="absolute -bottom-0.5 left-1/2 -translate-x-1/2 w-0 h-0.5 bg-white transition-all duration-300 ease-out {{ request()->is('/') ? 'w-10' : '' }} group-hover:w-14"></span>
                     </span>
                 </a>
                 <a href="{{ url('/about') }}" class="{{ request()->is('about') ? 'text-blue-200 bg-blue-800' : 'text-white' }} hover:text-blue-200 block px-3 py-2 text-base font-medium rounded-md transition duration-300 group cursor-pointer">

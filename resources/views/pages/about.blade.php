@@ -216,7 +216,7 @@
                     The foundational truths that guide our faith and shape our community.
                 </p>
             </div>
-
+            
             <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                 <div class="bg-gray-50 p-8 rounded-lg">
                     <div class="w-12 h-12 bg-blue-600 rounded-lg flex items-center justify-center mb-4">
@@ -290,7 +290,7 @@
                     Hear from our church family about their experiences and how this community has impacted their lives.
                 </p>
             </div>
-
+            
             <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                 <div class="bg-white p-8 rounded-lg shadow-lg">
                     <div class="flex items-center mb-4">
@@ -348,7 +348,7 @@
                 <a href="{{ route('contact') }}" class="border-2 border-white text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-white hover:text-blue-600 transition duration-300 transform hover:scale-105">
                     Get In Touch
                 </a>
-            </div>
         </div>
+    </div>
     </section>
 </x-layout>
