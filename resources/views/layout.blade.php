@@ -14,8 +14,9 @@
 
 <body class="{{ request()->is('/') ? 'bg-transparent' : 'bg-gray-200' }}">
     <x-nav />
-    <main>
+    <main id="main">
         {{ $slot }}
     </main>
+    <x-footer />
 </body>
 </html> 
