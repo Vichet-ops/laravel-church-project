@@ -29,6 +29,10 @@
                     <span>Events</span>
                     <span class="absolute bottom-1 left-1/2 transform -translate-x-1/2 w-0 h-0.5 bg-white transition-all duration-300 ease-out {{ request()->is('events') ? 'w-18' : '' }} group-hover:w-18"></span>
                 </a>
+                <a href="{{ url('/gallery') }}" class="{{ request()->is('gallery') ? 'text-blue-200' : 'text-white' }} hover:text-blue-200 px-4 py-3 text-base font-medium transition duration-300 relative group">
+                    <span>Gallery</span>
+                    <span class="absolute bottom-1 left-1/2 transform -translate-x-1/2 w-0 h-0.5 bg-white transition-all duration-300 ease-out {{ request()->is('gallery') ? 'w-20' : '' }} group-hover:w-20"></span>
+                </a>
                 <a href="{{ url('/contact') }}" class="{{ request()->is('contact') ? 'text-blue-200' : 'text-white' }} hover:text-blue-200 px-4 py-3 text-base font-medium transition duration-300 relative group">
                     <span>Contact</span>
                     <span class="absolute bottom-1 left-1/2 transform -translate-x-1/2 w-0 h-0.5 bg-white transition-all duration-300 ease-out {{ request()->is('contact') ? 'w-20' : '' }} group-hover:w-20"></span>
@@ -73,6 +77,12 @@
                     <span class="relative inline-block">
                         Events
                         <span class="absolute -bottom-0.5 left-1/2 -translate-x-1/2 w-0 h-0.5 bg-white transition-all duration-300 ease-out {{ request()->is('events') ? 'w-14' : '' }} group-hover:w-14"></span>
+                    </span>
+                </a>
+                <a href="{{ url('/gallery') }}" class="{{ request()->is('gallery') ? 'text-blue-200 bg-blue-800' : 'text-white' }} hover:text-blue-200 block px-3 py-2 text-base font-medium rounded-md transition duration-300 group cursor-pointer">
+                    <span class="relative inline-block">
+                        Gallery
+                        <span class="absolute -bottom-0.5 left-1/2 -translate-x-1/2 w-0 h-0.5 bg-white transition-all duration-300 ease-out {{ request()->is('gallery') ? 'w-16' : '' }} group-hover:w-16"></span>
                     </span>
                 </a>
                 <a href="{{ url('/contact') }}" class="{{ request()->is('contact') ? 'text-blue-200 bg-blue-800' : 'text-white' }} hover:text-blue-200 block px-3 py-2 text-base font-medium rounded-md transition duration-300 group cursor-pointer">

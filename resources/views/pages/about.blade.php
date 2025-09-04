@@ -44,11 +44,11 @@
     </section>
 
     <!-- Church History Section -->
-    <section class="py-20 bg-white">
+    <section class="pt-20 pb-4 relative min-h-screen" style="background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('/images/cross_at9.png') no-repeat center top; background-size: cover;">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16">
-                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-6">Our Story</h2>
-                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                <h2 class="text-3xl md:text-4xl font-bold text-white mb-6">Our Story</h2>
+                <p class="text-xl text-gray-200 max-w-3xl mx-auto">
                     From humble beginnings to a vibrant community of faith, discover the journey that has shaped our church.
                 </p>
             </div>
@@ -56,52 +56,52 @@
             <!-- Timeline -->
             <div class="relative">
                 <!-- Timeline Line -->
-                <div class="absolute left-1/2 transform -translate-x-px h-full w-0.5 bg-blue-600"></div>
+                <div class="absolute left-1/2 transform -translate-x-px h-full w-0.5 bg-blue-600 timeline-line" data-aos="fade-in" data-aos-delay="150" data-aos-duration="800"></div>
 
                 <!-- Timeline Items -->
                 <div class="space-y-12">
                     <!-- 1995 -->
-                    <div class="relative flex items-center">
+                    <div class="relative flex items-center" data-aos="fade-right" data-aos-delay="100" data-aos-duration="800">
                         <div class="absolute left-1/2 transform -translate-x-1/2 w-4 h-4 bg-blue-600 rounded-full border-4 border-white shadow-lg"></div>
                         <div class="w-5/12 pr-8 text-right">
-                            <h3 class="text-xl font-bold text-gray-900 mb-2">1995 - The Beginning</h3>
-                            <p class="text-gray-600">Founded by Pastor John and Mary Smith with just 12 families meeting in a small home. Our church began with a simple vision: to share God's love in our community.</p>
+                            <h3 class="text-xl font-bold text-white mb-2">1995 - The Beginning</h3>
+                            <p class="text-gray-200">Founded by Pastor John and Mary Smith with just 12 families meeting in a small home. Our church began with a simple vision: to share God's love in our community.</p>
                         </div>
                     </div>
 
                     <!-- 2000 -->
-                    <div class="relative flex items-center justify-end">
+                    <div class="relative flex items-center justify-end" data-aos="fade-left" data-aos-delay="200" data-aos-duration="800">
                         <div class="absolute left-1/2 transform -translate-x-1/2 w-4 h-4 bg-blue-600 rounded-full border-4 border-white shadow-lg"></div>
                         <div class="w-5/12 pl-8">
-                            <h3 class="text-xl font-bold text-gray-900 mb-2">2000 - First Building</h3>
-                            <p class="text-gray-600">After 5 years of growth, we purchased our first church building. The congregation had grown to 75 members, and we began offering multiple services and programs.</p>
+                            <h3 class="text-xl font-bold text-white mb-2">2000 - First Building</h3>
+                            <p class="text-gray-200">After 5 years of growth, we purchased our first church building. The congregation had grown to 75 members, and we began offering multiple services and programs.</p>
                         </div>
                     </div>
 
                     <!-- 2010 -->
-                    <div class="relative flex items-center">
+                    <div class="relative flex items-center" data-aos="fade-right" data-aos-delay="300" data-aos-duration="800">
                         <div class="absolute left-1/2 transform -translate-x-1/2 w-4 h-4 bg-blue-600 rounded-full border-4 border-white shadow-lg"></div>
                         <div class="w-5/12 pr-8 text-right">
-                            <h3 class="text-xl font-bold text-gray-900 mb-2">2010 - Community Expansion</h3>
-                            <p class="text-gray-600">Launched our community outreach programs including food bank, youth ministry, and counseling services. Our congregation grew to 200+ members.</p>
+                            <h3 class="text-xl font-bold text-white mb-2">2010 - Community Expansion</h3>
+                            <p class="text-gray-200">Launched our community outreach programs including food bank, youth ministry, and counseling services. Our congregation grew to 200+ members.</p>
                         </div>
                     </div>
 
                     <!-- 2020 -->
-                    <div class="relative flex items-center justify-end">
+                    <div class="relative flex items-center justify-end" data-aos="fade-left" data-aos-delay="400" data-aos-duration="800">
                         <div class="absolute left-1/2 transform -translate-x-1/2 w-4 h-4 bg-blue-600 rounded-full border-4 border-white shadow-lg"></div>
                         <div class="w-5/12 pl-8">
-                            <h3 class="text-xl font-bold text-gray-900 mb-2">2020 - Digital Ministry</h3>
-                            <p class="text-gray-600">Adapted to the digital age with online services, virtual Bible studies, and social media outreach. Our ministry now reaches people globally.</p>
+                            <h3 class="text-xl font-bold text-white mb-2">2020 - Digital Ministry</h3>
+                            <p class="text-gray-200">Adapted to the digital age with online services, virtual Bible studies, and social media outreach. Our ministry now reaches people globally.</p>
                         </div>
                     </div>
 
                     <!-- Today -->
-                    <div class="relative flex items-center">
+                    <div class="relative flex items-center" data-aos="fade-right" data-aos-delay="500" data-aos-duration="800">
                         <div class="absolute left-1/2 transform -translate-x-1/2 w-4 h-4 bg-blue-600 rounded-full border-4 border-white shadow-lg"></div>
                         <div class="w-5/12 pr-8 text-right">
-                            <h3 class="text-2xl font-bold text-gray-900 mb-2">Today - Growing Strong</h3>
-                            <p class="text-gray-600">A vibrant community of 350+ members with multiple ministries, outreach programs, and a commitment to serving God and our neighbors with love and compassion.</p>
+                            <h3 class="text-2xl font-bold text-white mb-2">Today - Growing Strong</h3>
+                            <p class="text-gray-200">A vibrant community of 350+ members with multiple ministries, outreach programs, and a commitment to serving God and our neighbors with love and compassion.</p>
                         </div>
                     </div>
                 </div>
@@ -122,10 +122,8 @@
             <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                 <!-- Senior Pastor -->
                 <div class="bg-white rounded-lg shadow-lg overflow-hidden">
-                    <div class="h-64 bg-gradient-to-br from-blue-400 to-blue-600 flex items-center justify-center">
-                        <svg class="w-24 h-24 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"></path>
-                        </svg>
+                    <div class="h-64 overflow-hidden">
+                        <img src="{{ asset('images/leadership/Senior Pastor.jpg') }}" alt="Pastor John Smith" class="w-full h-full object-cover object-[50%_20%]">
                     </div>
                     <div class="p-6">
                         <h3 class="text-2xl font-bold text-gray-900 mb-2">Pastor John Smith</h3>
@@ -136,10 +134,8 @@
 
                 <!-- Associate Pastor -->
                 <div class="bg-white rounded-lg shadow-lg overflow-hidden">
-                    <div class="h-64 bg-gradient-to-br from-green-400 to-green-600 flex items-center justify-center">
-                        <svg class="w-24 h-24 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"></path>
-                        </svg>
+                    <div class="h-64 overflow-hidden">
+                        <img src="{{ asset('images/leadership/Associate Pastor.jpg') }}" alt="Pastor Sarah Johnson" class="w-full h-full object-cover">
                     </div>
                     <div class="p-6">
                         <h3 class="text-2xl font-bold text-gray-900 mb-2">Pastor Sarah Johnson</h3>
@@ -150,10 +146,8 @@
 
                 <!-- Worship Leader -->
                 <div class="bg-white rounded-lg shadow-lg overflow-hidden">
-                    <div class="h-64 bg-gradient-to-br from-purple-400 to-purple-600 flex items-center justify-center">
-                        <svg class="w-24 h-24 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19V6l12-3v13M9 19c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zm12-3c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zM9 10l12-3"></path>
-                        </svg>
+                    <div class="h-64 overflow-hidden">
+                        <img src="{{ asset('images/leadership/Worship Leader.jpg') }}" alt="Michael Chen" class="w-full h-full object-cover">
                     </div>
                     <div class="p-6">
                         <h3 class="text-2xl font-bold text-gray-900 mb-2">Michael Chen</h3>
@@ -164,10 +158,8 @@
 
                 <!-- Youth Director -->
                 <div class="bg-white rounded-lg shadow-lg overflow-hidden">
-                    <div class="h-64 bg-gradient-to-br from-orange-400 to-orange-600 flex items-center justify-center">
-                        <svg class="w-24 h-24 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path>
-                        </svg>
+                    <div class="h-64 overflow-hidden">
+                        <img src="{{ asset('images/leadership/Youth Director.jpg') }}" alt="Emily Rodriguez" class="w-full h-full object-cover">
                     </div>
                     <div class="p-6">
                         <h3 class="text-2xl font-bold text-gray-900 mb-2">Emily Rodriguez</h3>
@@ -178,24 +170,20 @@
 
                 <!-- Children's Director -->
                 <div class="bg-white rounded-lg shadow-lg overflow-hidden">
-                    <div class="h-64 bg-gradient-to-br from-pink-400 to-pink-600 flex items-center justify-center">
-                        <svg class="w-24 h-24 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197m13.5-9a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0z"></path>
-                        </svg>
+                    <div class="h-64 overflow-hidden">
+                        <img src="{{ asset('images/leadership/Children\'s teacher.jpg') }}" alt="Lisa Thompson" class="w-full h-full object-cover">
                     </div>
                     <div class="p-6">
                         <h3 class="text-2xl font-bold text-gray-900 mb-2">Lisa Thompson</h3>
-                        <p class="text-pink-600 font-semibold mb-3">Children's Director</p>
+                        <p class="text-pink-600 font-semibold mb-3">Children's Teacher</p>
                         <p class="text-gray-600">Nurturing the faith of our youngest members through creative Bible lessons, music, and fun activities.</p>
                     </div>
                 </div>
 
                 <!-- Outreach Coordinator -->
                 <div class="bg-white rounded-lg shadow-lg overflow-hidden">
-                    <div class="h-64 bg-gradient-to-br from-red-400 to-red-600 flex items-center justify-center">
-                        <svg class="w-24 h-24 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"></path>
-                        </svg>
+                    <div class="h-64 overflow-hidden">
+                        <img src="{{ asset('images/leadership/Outreach Coordinator.jpg') }}" alt="David Wilson" class="w-full h-full object-cover object-[50%_20%]">
                     </div>
                     <div class="p-6">
                         <h3 class="text-2xl font-bold text-gray-900 mb-2">David Wilson</h3>
