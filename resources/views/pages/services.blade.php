@@ -360,7 +360,7 @@
     </section>
 
     <!-- Call to Action -->
-    <section class="py-20 bg-blue-600">
+    <section class="py-20 bg-gradient-to-b from-[#0b1f3a] to-[#1b2f58]">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h2 class="text-3xl md:text-4xl font-bold text-white mb-6">Join Us This Sunday</h2>
             <p class="text-xl text-blue-100 mb-8 max-w-3xl mx-auto">

@@ -1,13 +1,14 @@
-<nav class="fixed top-0 left-0 w-full z-50 bg-blue-600 shadow-md pt-4 pb-4" id="navbar">
+<nav class="fixed top-0 left-0 w-full z-50 bg-gradient-to-b from-[#0b1f3a] to-[#1b2f58] shadow-md pt-4 pb-4" id="navbar">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="flex justify-between items-center h-20 md:h-24 lg:h-28">
             
             <!-- Logo -->
             <div class="flex items-center">
-                <a href="{{ url('/') }}" class="hover:opacity-80 transition duration-300">
-                    <img src="{{ asset('images/red-cross-transparent-clean.png') }}"
+                <a href="{{ url('/') }}" class="hover:opacity-80 transition duration-300 flex items-center">
+                    <img src="{{ asset('images/cross_3.png') }}"
                          alt="Muang Thai Korat Church Logo"
                          class="h-12 md:h-20 lg:h-24 w-auto">
+                    <span class="ml-3 text-white font-semibold text-base md:text-lg">Muang Thai Korat Church</span>
                 </a>
             </div>
 
@@ -37,7 +38,7 @@
                     <span>Contact</span>
                     <span class="absolute bottom-1 left-1/2 transform -translate-x-1/2 w-0 h-0.5 bg-white transition-all duration-300 ease-out {{ request()->is('contact') ? 'w-20' : '' }} group-hover:w-20"></span>
                 </a>
-                <a href="{{ url('/give') }}" class="bg-green-600 text-white px-6 py-3 rounded-md text-base font-medium hover:bg-green-700 transition duration-300 shadow-md">
+                <a href="{{ url('/give') }}" class="bg-blue-600 text-white px-6 py-3 rounded-md text-base font-medium hover:bg-blue-700 transition duration-300 shadow-md">
                     Give
                 </a>
             </div>
@@ -91,7 +92,7 @@
                         <span class="absolute -bottom-0.5 left-1/2 -translate-x-1/2 w-0 h-0.5 bg-white transition-all duration-300 ease-out {{ request()->is('contact') ? 'w-16' : '' }} group-hover:w-16"></span>
                     </span>
                 </a>
-                <a href="{{ url('/give') }}" class="bg-green-600 text-white block px-3 py-2 text-base font-medium rounded-md hover:bg-green-700 transition duration-300 shadow-md cursor-pointer">
+                <a href="{{ url('/give') }}" class="bg-blue-600 text-white block px-3 py-2 text-base font-medium rounded-md hover:bg-blue-700 transition duration-300 shadow-md cursor-pointer">
                     Give
                 </a>
             </div>

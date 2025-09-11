@@ -24,25 +24,21 @@
         </div>
         
     </div>
-
-    <!-- Space between sections -->
-    <div class="h-8 bg-gray-300"></div>
-
     <!-- Welcome Section -->
-    <section class="py-20 relative" style="background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/images/children_ministry.jpg') no-repeat center center; background-size: cover;">
+    <section class="py-20 relative bg-gray-200">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center">
-                <h2 class="text-4xl md:text-5xl font-bold text-blue-300 mb-6">
+                <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
                     Welcome to Our Faith Community
                 </h2>
-                <p class="text-xl text-gray-200 max-w-3xl mx-auto leading-relaxed mb-16">
+                <p class="text-xl text-gray-700 max-w-3xl mx-auto leading-relaxed mb-16">
                     Join us in worship, fellowship, and growing together in faith. <br>
                     Experience the love of Christ in our welcoming community where everyone belongs.
                 </p>
             </div>
             
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">
-                <div class="text-center p-8 rounded-lg bg-gray-300 transition-all duration-1000 ease-out animate-on-scroll delay-3" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
+                <div class="text-center p-8 rounded-lg bg-gray-300 shadow-sm transition-shadow duration-300 ease-out hover:shadow-md" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
                     <div class="w-16 h-16 bg-gray-700 rounded-full flex items-center justify-center mx-auto mb-6">
                         <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.746 0 3.332.477 4.5 1.253v13C19.832 18.477 18.246 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path>
@@ -52,7 +48,7 @@
                     <p class="text-gray-600">Deepen your understanding of God's Word through our engaging Bible study programs for all ages.</p>
                 </div>
                 
-                <div class="text-center p-8 rounded-lg bg-gray-300 transition-all duration-1000 ease-out animate-on-scroll delay-2" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">
+                <div class="text-center p-8 rounded-lg bg-gray-300 shadow-sm transition-shadow duration-300 ease-out hover:shadow-md" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">
                     <div class="w-16 h-16 bg-gray-700 rounded-full flex items-center justify-center mx-auto mb-6">
                         <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path>
@@ -62,7 +58,7 @@
                     <p class="text-gray-600">Build meaningful relationships in our supportive community where faith and friendship come together.</p>
                 </div>
                 
-                <div class="text-center p-8 rounded-lg bg-gray-300 transition-all duration-1000 ease-out animate-on-scroll delay-1" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">
+                <div class="text-center p-8 rounded-lg bg-gray-300 shadow-sm transition-shadow duration-300 ease-out hover:shadow-md" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">
                     <div class="w-16 h-16 bg-gray-700 rounded-full flex items-center justify-center mx-auto mb-6">
                         <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"></path>
@@ -76,19 +72,19 @@
     </section>
 
     <!-- Service Times Section -->
-    <section class="py-20 bg-gray-200">
+    <section class="py-20 bg-gray-200" style="background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('/images/children_ministry.jpg') no-repeat center center; background-size: cover;">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center max-w-4xl mx-auto">
-                <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-                    Join Us for <span class="text-gray-700">Worship</span>
+                <h2 class="text-4xl md:text-5xl font-bold text-white mb-6">
+                    Join Us for <span class="text-blue-300">Worship</span>
                 </h2>
-                <p class="text-xl text-gray-600 mb-8">
+                <p class="text-xl text-gray-200 mb-8">
                     We welcome you to join us for our weekly services.<br>
                     Come as you are and experience the love of Christ in our community.
                 </p>
                 
                 <div class="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-4xl mx-auto">
-                        <div class="text-center p-6 bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300">
+                        <div class="text-center p-6 bg-white rounded-xl shadow-sm transition-shadow duration-300 ease-out hover:shadow-md">
                             <div class="w-16 h-16 bg-blue-600 rounded-full flex items-center justify-center mx-auto mb-4">
                                 <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
@@ -99,7 +95,7 @@
                             <p class="text-gray-600 text-sm">Main Worship Service</p>
                         </div>
                         
-                        <div class="text-center p-6 bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300">
+                        <div class="text-center p-6 bg-white rounded-xl shadow-sm transition-shadow duration-300 ease-out hover:shadow-md">
                             <div class="w-16 h-16 bg-green-600 rounded-full flex items-center justify-center mx-auto mb-4">
                                 <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.746 0 3.332.477 4.5 1.253v13C19.832 18.477 18.246 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path>
@@ -110,7 +106,7 @@
                             <p class="text-gray-600 text-sm">Bible Study & Prayer</p>
                         </div>
                         
-                        <div class="text-center p-6 bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300">
+                        <div class="text-center p-6 bg-white rounded-xl shadow-sm transition-shadow duration-300 ease-out hover:shadow-md">
                             <div class="w-16 h-16 bg-purple-600 rounded-full flex items-center justify-center mx-auto mb-4">
                                 <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path>
@@ -128,13 +124,13 @@
     </section>
 
     <!-- Events Section -->
-    <section class="py-20 bg-white" style="background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('/images/night_view.jpg') no-repeat center bottom; background-size: cover;">
+    <section class="py-20 bg-gray-100">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16">
-                <h2 class="text-4xl md:text-5xl font-bold text-white mb-6">
-                    Upcoming <span class="text-blue-200">Events</span>
+                <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
+                    Upcoming <span class="text-blue-600">Events</span>
                 </h2>
-                <p class="text-xl text-gray-200 max-w-3xl mx-auto">
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
                     Join us for special events, celebrations, and community gatherings throughout the year.
                 </p>
             </div>
@@ -194,9 +190,11 @@
         </div>
     </section>
 
-    <!-- Call to Action Section -->
+   
+    <!-- Section Divider: subtle fade line -->
+    <div class="h-px bg-gradient-to-r from-transparent via-gray-300 to-transparent my-8"></div>
     <!-- Past Events Gallery Teaser -->
-    <section class="py-16 bg-gray-50">
+    <section class="py-16 bg-gray-100">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex items-center justify-between mb-8">
                 <h2 class="text-3xl md:text-4xl font-bold text-gray-900">Recent Photos</h2>
@@ -220,7 +218,7 @@
             </div>
         </div>
     </section>
-    <section class="py-20 bg-blue-600">
+    <section class="py-20 bg-gradient-to-b from-[#0b1f3a] to-[#1b2f58]">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h2 class="text-4xl md:text-5xl font-bold text-white mb-6">
                 Ready to Join Our <span class="text-blue-200">Community?</span>
@@ -232,7 +230,7 @@
                 <a href="{{ route('contact') }}" class="bg-white text-blue-600 px-8 py-4 rounded-lg font-semibold hover:bg-blue-600 hover:text-white hover:shadow-lg transition-all duration-300">
                     Contact Us
                 </a>
-                <a href="{{ route('about') }}" class="bg-white text-blue-600 px-8 py-4 rounded-lg font-semibold hover:bg-blue-600 hover:text-white hover:shadow-lg transition-all duration-300">
+                <a href="{{ route('about') }}" class="border-2 border-white text-white px-8 py-4 rounded-lg font-semibold hover:bg-white hover:text-blue-600 hover:shadow-lg transition-all duration-300">
                     Learn More
                 </a>
             </div>
