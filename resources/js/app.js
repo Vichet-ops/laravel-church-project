@@ -36,10 +36,6 @@ class SimpleAnimations {
         // Setup animations
         this.setupAnimations();
 
-        // Listen for Turbo Drive events (page navigation)
-        document.addEventListener("turbo:load", () => this.setupAnimations());
-        document.addEventListener("turbo:render", () => this.setupAnimations());
-
         // Fallback for regular page loads
         document.addEventListener("DOMContentLoaded", () =>
             this.setupAnimations()
@@ -86,6 +82,3 @@ if (document.readyState === "loading") {
 } else {
     initLightbox();
 }
-
-document.addEventListener("turbo:load", initLightbox);
-document.addEventListener("turbo:render", initLightbox);

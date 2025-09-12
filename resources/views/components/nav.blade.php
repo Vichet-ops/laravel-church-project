@@ -141,7 +141,6 @@
             if (e.key === 'Escape') close();
         };
 
-        document.addEventListener('turbo:before-visit', close);
 
         menu.addEventListener('click', (e) => {
             if (e.target.closest('a')) close();
@@ -154,5 +153,4 @@
         initNav();
     }
 
-    document.addEventListener('turbo:load', initNav);
 </script>
