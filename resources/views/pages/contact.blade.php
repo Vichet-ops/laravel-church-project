@@ -36,7 +36,7 @@
                                 </div>
                                 <div class="ml-4">
                                     <h3 class="text-lg font-semibold text-gray-900 mb-1">Visit Us</h3>
-                                    <p class="text-gray-600">123 Church Street<br>Anytown, ST 12345</p>
+                                    <p class="text-gray-600">Muangthai Korat Church<br>Nakhon Ratchasima, Thailand</p>
                                 </div>
                             </div>
                         </div>
@@ -144,17 +144,29 @@
                 <p class="text-lg text-gray-600">Visit us at our location</p>
             </div>
             <div class="bg-white rounded-2xl shadow-lg p-8 text-center">
-                <div class="w-full h-96 rounded-lg overflow-hidden">
+                <div class="w-full h-96 rounded-lg overflow-hidden mb-6">
                     <iframe
-                        src="https://www.google.com/maps?q=Muang+Thai+Korat+Church&output=embed"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3840.123456789!2d102.0353094!3d14.9591457!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x311eb31037797a4f%3A0x6e1c1237a91516b9!2sMuangthai%20Korat%20Church!5e0!3m2!1sen!2sth!4v1234567890123!5m2!1sen!2sth"
                         width="100%"
                         height="100%"
                         style="border:0;"
                         allowfullscreen=""
                         loading="lazy"
                         referrerpolicy="no-referrer-when-downgrade"
-                        title="Church Location Map"
+                        title="Muangthai Korat Church Location"
                     ></iframe>
+                </div>
+                <div class="space-y-4">
+                    <p class="text-gray-600 text-lg">Muangthai Korat Church, Nakhon Ratchasima, Thailand</p>
+                    <a href="https://www.google.com/maps/place/Muangthai+Korat+Church/@14.9591457,102.0353094,16.65z/data=!4m6!3m5!1s0x311eb31037797a4f:0x6e1c1237a91516b9!8m2!3d14.9593033!4d102.0387701!16s%2Fg%2F1hm4whygs?authuser=0&entry=ttu&g_ep=EgoyMDI1MDkwOS4wIKXMDSoASAFQAw%3D%3D" 
+                       target="_blank" 
+                       class="inline-flex items-center bg-blue-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-blue-700 transition duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl">
+                        <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path>
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
+                        </svg>
+                        Get Directions
+                    </a>
                 </div>
             </div>
         </div>

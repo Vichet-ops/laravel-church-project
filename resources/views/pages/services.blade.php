@@ -137,11 +137,8 @@
 
             <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                 <!-- Children's Ministry -->
-                <div class="bg-white rounded-lg shadow-lg overflow-hidden">
-                    <div class="h-48 bg-gradient-to-br from-pink-400 to-pink-600 flex items-center justify-center">
-                        <svg class="w-16 h-16 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197m13.5-9a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0z"></path>
-                        </svg>
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl hover:scale-105 transition-all duration-300 ease-out">
+                    <div class="h-48 bg-cover" style="background-image: url('{{ asset('images/children-ministry.jpg') }}'); background-position: center 30%;">
                     </div>
                     <div class="p-6">
                         <h3 class="text-2xl font-bold text-gray-900 mb-3">Children's Ministry</h3>
@@ -156,11 +153,8 @@
                 </div>
 
                 <!-- Youth Ministry -->
-                <div class="bg-white rounded-lg shadow-lg overflow-hidden">
-                    <div class="h-48 bg-gradient-to-br from-orange-400 to-orange-600 flex items-center justify-center">
-                        <svg class="w-16 h-16 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path>
-                        </svg>
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl hover:scale-105 transition-all duration-300 ease-out">
+                    <div class="h-48 bg-cover" style="background-image: url('{{ asset('images/youth-ministry.jpg') }}'); background-position: center 25%;">
                     </div>
                     <div class="p-6">
                         <h3 class="text-2xl font-bold text-gray-900 mb-3">Youth Ministry</h3>
@@ -175,11 +169,8 @@
                 </div>
 
                 <!-- Adult Bible Study -->
-                <div class="bg-white rounded-lg shadow-lg overflow-hidden">
-                    <div class="h-48 bg-gradient-to-br from-blue-400 to-blue-600 flex items-center justify-center">
-                        <svg class="w-16 h-16 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.746 0 3.332.477 4.5 1.253v13C19.832 18.477 18.246 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path>
-                        </svg>
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl hover:scale-105 transition-all duration-300 ease-out">
+                    <div class="h-48 bg-cover" style="background-image: url('{{ asset('images/adult-bible-study.jpg') }}'); background-position: center 30%;">
                     </div>
                     <div class="p-6">
                         <h3 class="text-2xl font-bold text-gray-900 mb-3">Adult Bible Study</h3>
@@ -194,11 +185,8 @@
                 </div>
 
                 <!-- Worship Ministry -->
-                <div class="bg-white rounded-lg shadow-lg overflow-hidden">
-                    <div class="h-48 bg-gradient-to-br from-purple-400 to-purple-600 flex items-center justify-center">
-                        <svg class="w-16 h-16 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19V6l12-3v13M9 19c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zm12-3c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zM9 10l12-3"></path>
-                        </svg>
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl hover:scale-105 transition-all duration-300 ease-out">
+                    <div class="h-48 bg-cover" style="background-image: url('{{ asset('images/worship-ministry.jpg') }}'); background-position: center 30%;">
                     </div>
                     <div class="p-6">
                         <h3 class="text-2xl font-bold text-gray-900 mb-3">Worship Ministry</h3>
@@ -213,11 +201,8 @@
                 </div>
 
                 <!-- Outreach Ministry -->
-                <div class="bg-white rounded-lg shadow-lg overflow-hidden">
-                    <div class="h-48 bg-gradient-to-br from-red-400 to-red-600 flex items-center justify-center">
-                        <svg class="w-16 h-16 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"></path>
-                        </svg>
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl hover:scale-105 transition-all duration-300 ease-out">
+                    <div class="h-48 bg-cover" style="background-image: url('{{ asset('images/outreach-ministry.jpg') }}'); background-position: center 30%;">
                     </div>
                     <div class="p-6">
                         <h3 class="text-2xl font-bold text-gray-900 mb-3">Outreach Ministry</h3>
@@ -232,11 +217,8 @@
                 </div>
 
                 <!-- Prayer Ministry -->
-                <div class="bg-white rounded-lg shadow-lg overflow-hidden">
-                    <div class="h-48 bg-gradient-to-br from-green-400 to-green-600 flex items-center justify-center">
-                        <svg class="w-16 h-16 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"></path>
-                        </svg>
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl hover:scale-105 transition-all duration-300 ease-out">
+                    <div class="h-48 bg-cover" style="background-image: url('{{ asset('images/prayer-ministry.jpg') }}'); background-position: center 30%;">
                     </div>
                     <div class="p-6">
                         <h3 class="text-2xl font-bold text-gray-900 mb-3">Prayer Ministry</h3>
@@ -360,17 +342,17 @@
     </section>
 
     <!-- Call to Action -->
-    <section class="py-20 bg-gradient-to-b from-[#0b1f3a] to-[#1b2f58]">
+    <section class="py-20 bg-gray-100">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <h2 class="text-3xl md:text-4xl font-bold text-white mb-6">Join Us This Sunday</h2>
-            <p class="text-xl text-blue-100 mb-8 max-w-3xl mx-auto">
+            <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-6">Join Us This <span class="text-blue-600">Sunday</span></h2>
+            <p class="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
                 We'd love to welcome you to our church family. Come experience the love of Christ in our community.
             </p>
             <div class="flex flex-col sm:flex-row gap-4 justify-center">
-                <a href="{{ route('contact') }}" class="bg-white text-blue-600 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-gray-100 transition duration-300 transform hover:scale-105">
+                <a href="{{ route('contact') }}" class="bg-blue-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-blue-700 transition duration-300 transform hover:scale-105">
                     Get Directions
                 </a>
-                <a href="{{ route('about') }}" class="border-2 border-white text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-white hover:text-blue-600 transition duration-300 transform hover:scale-105">
+                <a href="{{ route('about') }}" class="border-2 border-blue-600 text-blue-600 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-blue-600 hover:text-white transition duration-300 transform hover:scale-105">
                     Learn More About Us
                 </a>
         </div>

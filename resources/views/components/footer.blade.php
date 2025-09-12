@@ -5,8 +5,8 @@
             <div class="col-span-1 md:col-span-2">
                 <div class="flex items-center mb-4">
                     <a href="{{ route('home') }}" class="flex items-center hover:opacity-80 transition duration-300">
-                        <img src="{{ asset('images/cross_3.png') }}" alt="Muang Thai Korat Church Logo" class="h-12 w-auto mr-3">
-                        <h3 class="text-xl font-semibold text-white">Muang Thai Korat Church</h3>
+                        <img src="{{ asset('images/cross-logo.png') }}" alt="Muang Thai Korat Church Logo" class="h-12 w-auto mr-3">
+                        <h3 class="text-lg font-semibold text-white">Muang Thai Korat Church</h3>
                     </a>
                 </div>
             </div>

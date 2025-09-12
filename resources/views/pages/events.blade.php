@@ -80,15 +80,11 @@
             <div class="grid lg:grid-cols-2 gap-8">
                 <!-- Christmas Celebration -->
                 <div class="bg-white border border-gray-200 rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
-                    <div class="h-48 bg-gradient-to-br from-red-400 to-red-600 flex items-center justify-center">
-                        <svg class="w-16 h-16 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"></path>
-                        </svg>
+                    <div class="h-48 bg-cover bg-center hover:scale-105 transition-transform duration-500" style="background-image: url('{{ asset('images/Christmas Celebration.jpg') }}')">
                     </div>
                     <div class="p-6">
                         <div class="flex items-center justify-between mb-4">
                             <span class="bg-red-100 text-red-800 px-3 py-1 rounded-full text-sm font-medium">Special Event</span>
-                            <span class="text-gray-500 text-sm">Dec 24, 2024</span>
                         </div>
                         <h3 class="text-2xl font-bold text-gray-900 mb-3">Christmas Celebration</h3>
                         <div class="space-y-2 mb-4">
@@ -96,23 +92,16 @@
                             <p class="text-gray-600"><strong>Location:</strong> Main Sanctuary</p>
                         </div>
                         <p class="text-gray-600 mb-4">Join us for a special Christmas Eve service featuring carols, candlelight, and the Christmas story. A beautiful evening of worship and celebration.</p>
-                        <button class="bg-gray-700 text-white px-6 py-2 rounded-lg hover:bg-gray-800 transition duration-300">
-                            Learn More
-                        </button>
                     </div>
                 </div>
 
                 <!-- New Year's Prayer Service -->
                 <div class="bg-white border border-gray-200 rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
-                    <div class="h-48 bg-gradient-to-br from-blue-400 to-blue-600 flex items-center justify-center">
-                        <svg class="w-16 h-16 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"></path>
-                        </svg>
+                    <div class="h-48 bg-cover bg-center hover:scale-105 transition-transform duration-500" style="background-image: url('{{ asset('images/New Years Prayer Service.jpg') }}')">
                     </div>
                     <div class="p-6">
                         <div class="flex items-center justify-between mb-4">
                             <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm font-medium">Prayer Service</span>
-                            <span class="text-gray-500 text-sm">Jan 1, 2025</span>
                         </div>
                         <h3 class="text-2xl font-bold text-gray-900 mb-3">New Year's Prayer Service</h3>
                         <div class="space-y-2 mb-4">
@@ -120,23 +109,16 @@
                             <p class="text-gray-600"><strong>Location:</strong> Main Sanctuary</p>
                         </div>
                         <p class="text-gray-600 mb-4">Start the new year with prayer, reflection, and thanksgiving. Join us for a special service to dedicate the year ahead to God.</p>
-                        <button class="bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700 transition duration-300">
-                            Learn More
-                        </button>
                     </div>
                 </div>
 
                 <!-- Easter Sunday Service -->
                 <div class="bg-white border border-gray-200 rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
-                    <div class="h-48 bg-gradient-to-br from-green-400 to-green-600 flex items-center justify-center">
-                        <svg class="w-16 h-16 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
-                        </svg>
+                    <div class="h-48 bg-cover bg-center hover:scale-105 transition-transform duration-500" style="background-image: url('{{ asset('images/Easter Sunday Service.jpg') }}')">
                     </div>
                     <div class="p-6">
                         <div class="flex items-center justify-between mb-4">
                             <span class="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm font-medium">Easter</span>
-                            <span class="text-gray-500 text-sm">Apr 20, 2025</span>
                         </div>
                         <h3 class="text-2xl font-bold text-gray-900 mb-3">Easter Sunday Service</h3>
                         <div class="space-y-2 mb-4">
@@ -144,24 +126,16 @@
                             <p class="text-gray-600"><strong>Location:</strong> Main Sanctuary</p>
                         </div>
                         <p class="text-gray-600 mb-4">Celebrate the resurrection of Jesus Christ with our special Easter service. Join us for worship, celebration, and fellowship.</p>
-                        <button class="bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700 transition duration-300">
-                            Learn More
-                        </button>
                     </div>
                 </div>
 
                 <!-- Church Picnic -->
                 <div class="bg-white border border-gray-200 rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
-                    <div class="h-48 bg-gradient-to-br from-yellow-400 to-yellow-600 flex items-center justify-center">
-                        <svg class="w-16 h-16 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2H5a2 2 0 00-2-2z"></path>
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 5a2 2 0 012-2h4a2 2 0 012 2v2H8V5z"></path>
-                        </svg>
+                    <div class="h-48 bg-cover bg-center hover:scale-105 transition-transform duration-500" style="background-image: url('{{ asset('images/Annual Church Picnic.jpg') }}')">
                     </div>
                     <div class="p-6">
                         <div class="flex items-center justify-between mb-4">
                             <span class="bg-yellow-100 text-yellow-800 px-3 py-1 rounded-full text-sm font-medium">Fellowship</span>
-                            <span class="text-gray-500 text-sm">May 15, 2025</span>
                         </div>
                         <h3 class="text-2xl font-bold text-gray-900 mb-3">Annual Church Picnic</h3>
                         <div class="space-y-2 mb-4">
@@ -169,9 +143,6 @@
                             <p class="text-gray-600"><strong>Location:</strong> City Park</p>
                         </div>
                         <p class="text-gray-600 mb-4">Join us for our annual church picnic! Food, games, fellowship, and fun for the whole family. Bring a dish to share!</p>
-                        <button class="bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700 transition duration-300">
-                            Learn More
-                        </button>
                     </div>
                 </div>
             </div>
@@ -283,17 +254,17 @@
     </section>
 
     <!-- Call to Action -->
-    <section class="py-20 bg-gradient-to-b from-[#0b1f3a] to-[#1b2f58]">
+    <section class="py-20 bg-gray-100">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <h2 class="text-3xl md:text-4xl font-bold text-white mb-6">Join Us at Our Events</h2>
-            <p class="text-xl text-blue-100 mb-8 max-w-3xl mx-auto">
+            <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-6">Join Us at Our Events</h2>
+            <p class="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
                 We'd love to see you at our events! Connect with our community and grow in faith together.
             </p>
             <div class="flex flex-col sm:flex-row gap-4 justify-center">
-                <a href="{{ route('contact') }}" class="bg-white text-blue-600 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-gray-100 transition duration-300 transform hover:scale-105">
+                <a href="{{ route('contact') }}" class="bg-blue-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-blue-700 transition duration-300 transform hover:scale-105">
                     Get More Information
                 </a>
-                <a href="{{ route('services') }}" class="border-2 border-white text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-white hover:text-blue-600 transition duration-300 transform hover:scale-105">
+                <a href="{{ route('services') }}" class="border-2 border-blue-600 text-blue-600 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-blue-600 hover:text-white transition duration-300 transform hover:scale-105">
                     View Our Services
                 </a>
             </div>

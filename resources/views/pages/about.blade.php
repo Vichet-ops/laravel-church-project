@@ -123,7 +123,7 @@
                 <!-- Senior Pastor -->
                 <div class="bg-white rounded-lg shadow-lg overflow-hidden">
                     <div class="h-64 overflow-hidden">
-                        <img src="{{ asset('images/leadership/Senior Pastor.jpg') }}" alt="Pastor John Smith" class="w-full h-full object-cover object-[50%_20%]">
+                        <img src="{{ asset('images/leadership/Senior Pastor.jpg') }}" alt="Pastor John Smith" class="w-full h-full object-cover object-[50%_20%] hover:scale-105 transition-transform duration-500">
                     </div>
                     <div class="p-6">
                         <h3 class="text-2xl font-bold text-gray-900 mb-2">Pastor John Smith</h3>
@@ -135,7 +135,7 @@
                 <!-- Associate Pastor -->
                 <div class="bg-white rounded-lg shadow-lg overflow-hidden">
                     <div class="h-64 overflow-hidden">
-                        <img src="{{ asset('images/leadership/Associate Pastor.jpg') }}" alt="Pastor Sarah Johnson" class="w-full h-full object-cover">
+                        <img src="{{ asset('images/leadership/Associate Pastor.jpg') }}" alt="Pastor Sarah Johnson" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500">
                     </div>
                     <div class="p-6">
                         <h3 class="text-2xl font-bold text-gray-900 mb-2">Pastor Sarah Johnson</h3>
@@ -147,7 +147,7 @@
                 <!-- Worship Leader -->
                 <div class="bg-white rounded-lg shadow-lg overflow-hidden">
                     <div class="h-64 overflow-hidden">
-                        <img src="{{ asset('images/leadership/Worship Leader.jpg') }}" alt="Michael Chen" class="w-full h-full object-cover">
+                        <img src="{{ asset('images/leadership/Worship Leader.jpg') }}" alt="Michael Chen" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500">
                     </div>
                     <div class="p-6">
                         <h3 class="text-2xl font-bold text-gray-900 mb-2">Michael Chen</h3>
@@ -159,7 +159,7 @@
                 <!-- Youth Director -->
                 <div class="bg-white rounded-lg shadow-lg overflow-hidden">
                     <div class="h-64 overflow-hidden">
-                        <img src="{{ asset('images/leadership/Youth Director.jpg') }}" alt="Emily Rodriguez" class="w-full h-full object-cover">
+                        <img src="{{ asset('images/leadership/Youth Director.jpg') }}" alt="Emily Rodriguez" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500">
                     </div>
                     <div class="p-6">
                         <h3 class="text-2xl font-bold text-gray-900 mb-2">Emily Rodriguez</h3>
@@ -171,7 +171,7 @@
                 <!-- Children's Director -->
                 <div class="bg-white rounded-lg shadow-lg overflow-hidden">
                     <div class="h-64 overflow-hidden">
-                        <img src="{{ asset('images/leadership/Children\'s teacher.jpg') }}" alt="Lisa Thompson" class="w-full h-full object-cover">
+                        <img src="{{ asset('images/leadership/Children\'s teacher.jpg') }}" alt="Lisa Thompson" class="w-full h-full object-cover hover:scale-105 transition-transform duration-500">
                     </div>
                     <div class="p-6">
                         <h3 class="text-2xl font-bold text-gray-900 mb-2">Lisa Thompson</h3>
@@ -183,7 +183,7 @@
                 <!-- Outreach Coordinator -->
                 <div class="bg-white rounded-lg shadow-lg overflow-hidden">
                     <div class="h-64 overflow-hidden">
-                        <img src="{{ asset('images/leadership/Outreach Coordinator.jpg') }}" alt="David Wilson" class="w-full h-full object-cover object-[50%_20%]">
+                        <img src="{{ asset('images/leadership/Outreach Coordinator.jpg') }}" alt="David Wilson" class="w-full h-full object-cover object-[50%_20%] hover:scale-105 transition-transform duration-500">
                     </div>
                     <div class="p-6">
                         <h3 class="text-2xl font-bold text-gray-900 mb-2">David Wilson</h3>
@@ -323,17 +323,17 @@
     </section>
 
     <!-- Call to Action -->
-    <section class="py-20 bg-gradient-to-b from-[#0b1f3a] to-[#1b2f58]">
+    <section class="py-20 bg-gray-100">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <h2 class="text-3xl md:text-4xl font-bold text-white mb-6">Join Our Community</h2>
-            <p class="text-xl text-blue-100 mb-8 max-w-3xl mx-auto">
+            <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-6">Join Our <span class="text-blue-600">Community</span></h2>
+            <p class="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
                 We'd love to welcome you to our church family. Come experience the love of Christ in our community.
             </p>
             <div class="flex flex-col sm:flex-row gap-4 justify-center">
-                <a href="{{ route('services') }}" class="bg-white text-blue-600 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-gray-100 transition duration-300 transform hover:scale-105">
+                <a href="{{ route('services') }}" class="bg-blue-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-blue-700 transition duration-300 transform hover:scale-105">
                     Visit Our Services
                 </a>
-                <a href="{{ route('contact') }}" class="border-2 border-white text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-white hover:text-blue-600 transition duration-300 transform hover:scale-105">
+                <a href="{{ route('contact') }}" class="border-2 border-blue-600 text-blue-600 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-blue-600 hover:text-white transition duration-300 transform hover:scale-105">
                     Get In Touch
                 </a>
         </div>
